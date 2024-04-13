@@ -54,7 +54,7 @@ const Drivermanagement = () => {
         }
       ];
   return (
-    <table className='text-center'>
+    <table className='text-center bg-yellow-200 border-2'>
         <thead>
             <tr>
                 <th>Name</th>
@@ -68,7 +68,7 @@ const Drivermanagement = () => {
     <tbody>
        {driversDetails.map((value)=>{
 
-return <tr><td>
+return <tr className=' hover:bg-red-300 hover:cursor-pointer' ><td>
     {value.name}
     </td>
     <td>

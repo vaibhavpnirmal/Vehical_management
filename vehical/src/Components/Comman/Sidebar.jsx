@@ -14,9 +14,9 @@ const handleclick=()=>{
 
 
   return (
-    <div className="flex flex-col bg-green-200 w-12/12 h-screen ">
-      <div className="h-40 w-full w-12/12 bg-green-200   ">
-        <img src="/assets/car2.png" alt="this is image "></img>
+    <div className="flex flex-col bg-white w-12/12 h-screen ">
+      <div className="h-40 w-full w-12/12    ">
+        <img src="/assets/cardeal.png" alt="this is image "></img>
       </div>
       {SIDEBAR_LINKS.map((value)=>{
         return <div className="w-12/12 flex h-10 gap-5 border-2 border-black-300 hover:cursor-pointer hover:bg-sky-700  " key={value.key} onClick={()=>{ navigate(value.path)}}>

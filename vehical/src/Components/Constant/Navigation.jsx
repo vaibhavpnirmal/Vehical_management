@@ -5,7 +5,7 @@ import { MdOutlineBedroomParent } from "react-icons/md";
 
 export const SIDEBAR_LINKS = [
     {
-        label: "Dashboard",
+        label: "Booked",
         key: "dashboard",
         path: "dashboard",
         icon: <MdDashboard></MdDashboard>

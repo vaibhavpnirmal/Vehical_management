@@ -1,0 +1,77 @@
+{
+    "categories": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "email": "john@example.com",
+        "username": "johndoe",
+        "password": "password1"
+      },
+      {
+        "id": 2,
+        "name": "Jane Smith",
+        "email": "jane@example.com",
+        "username": "janesmith",
+        "password": "password2"
+      },
+      {
+        "id": 3,
+        "name": "Alice Johnson",
+        "email": "alice@example.com",
+        "username": "alicejohnson",
+        "password": "password3"
+      },
+      {
+        "id": 4,
+        "name": "Bob Brown",
+        "email": "bob@example.com",
+        "username": "bobbrown",
+        "password": "password4"
+      },
+      {
+        "id": 5,
+        "name": "Emily Davis",
+        "email": "emily@example.com",
+        "username": "emilydavis",
+        "password": "password5"
+      },
+      {
+        "id": 6,
+        "name": "Michael Wilson",
+        "email": "michael@example.com",
+        "username": "michaelwilson",
+        "password": "password6"
+      },
+      {
+        "id": 7,
+        "name": "Olivia Martinez",
+        "email": "olivia@example.com",
+        "username": "oliviamartinez",
+        "password": "password7"
+      },
+      {
+        "id": 8,
+        "name": "William Anderson",
+        "email": "william@example.com",
+        "username": "williamanderson",
+        "password": "password8"
+      },
+      {
+        "id": 9,
+        "name": "Sophia Thomas",
+        "email": "sophia@example.com",
+        "username": "sophiathomas",
+        "password": "password9"
+      },
+      {
+        "id": 10,
+        "name": "Daniel Taylor",
+        "email": "daniel@example.com",
+        "username": "danieltaylor",
+        "password": "password10"
+      }
+    ]
+  }
+   
+     
+  

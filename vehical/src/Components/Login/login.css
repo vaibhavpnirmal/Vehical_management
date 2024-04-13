@@ -1,0 +1,54 @@
+.moving-image {
+    width: 100px; /* Set according to your image width */
+    height: 100px; /* Set according to your image height */
+    background-image: url('path/to/your/image.png');
+    position: absolute;
+    top: 0;
+    animation: moveRightToLeft 15s linear infinite;
+  }
+  
+  @keyframes moveRightToLeft {
+    0% {
+      left: 90%; /* Start position - image is off the screen to the right */
+    }
+    100% {
+      left: -90px; /* End position - image is off the screen to the left */
+    }
+  }
+
+  /* App.css */
+.container {
+    position: relative;
+    overflow: hidden;
+    width: 100%; /* Ensure the container takes the full width */
+  }
+  
+  .animated-text {
+   
+  
+   
+   
+    padding: 10px 20px;
+    animation: moveLeftToRight 5s linear infinite; /* Adjusted animation duration */
+  }
+  
+  @keyframes moveLeftToRight {
+    0% {
+      left: -100%; /* Start position - text is off the screen to the left */
+    }
+    100% {
+      left: 100%; /* End position - text is off the screen to the right */
+    }
+  }
+  .animated-image2 {
+    width: 0; /* Initial width of the image */
+    height: 0; /* Initial height of the image */
+    background-image: url('https://fastly.picsum.photos/id/1/200/300.jpg?hmac=jH5bDkLr6Tgy3oAg5khKCHeunZMHq0ehBZr6vGifPLY');
+    background-size: cover;
+    transition: width 2s, height 2s; /* Transition for width and height properties over 2 seconds */
+  }
+  
+  .image-visible {
+    width: 100vw; /* Set the width to the width of the viewport */
+    height: 100vh; /* Set the height to the height of the viewport */
+  }

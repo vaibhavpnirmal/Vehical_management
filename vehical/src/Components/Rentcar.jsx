@@ -2,8 +2,8 @@ import React from 'react'
 
 const Rentcar = () => {
   return (
-    <div>
-      <h1>This is rent car </h1>
+    <div className='w-full h-full flex justify-center items-center bg-white'>
+      <h1 className=''>Under Maintanance </h1>
     </div>
   )
 }

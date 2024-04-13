@@ -5,6 +5,8 @@ const Dashboard = () => {
 
   const bookingDetails = [
     {
+
+     
       car: {
         make: "Toyota",
         model: "Camry",
@@ -18,16 +20,15 @@ const Dashboard = () => {
       },
       from: "New York",
       to: "Los Angeles",
-      hours: [
+      day:"22",
+      month:"Mar",
+      hours: 
         {
-          startTime: "2024-03-27T09:00:00",
-          endTime: "2024-03-27T12:00:00"
-        },
-        {
-          startTime: "2024-03-28T10:00:00",
-          endTime: "2024-03-28T14:00:00"
+          startTime: "22 Mar AT 10:00 AM ",
+          endTime: "25 Mar AT 9:00 PM"
         }
-      ]
+       
+      
     },
     {
       car: {
@@ -43,28 +44,27 @@ const Dashboard = () => {
       },
       from: "Los Angeles",
       to: "San Francisco",
-      hours: [
+      day:"18",
+      month:"Apr",
+      hours: 
         {
-          startTime: "2024-03-27T13:00:00",
-          endTime: "2024-03-27T16:00:00"
-        },
-        {
-          startTime: "2024-03-28T15:00:00",
-          endTime: "2024-03-28T18:00:00"
+          startTime: "18 Apr AT 12:00 PM",
+          endTime: "20 Apr AT 6:00 AM"
         }
-      ]
+       
+      
     }
   ];
   
  
   
   return (
-    <div className="flex flex-row gap-3 p-5">
+    <div className="flex flex-row gap-3 pt-2">
       {bookingDetails.map((value,index)=>{
         return <Singlecard  name={value.driver.name}
         
-        date={"12/09/2004"} form={value.from} to={value.to} startTime={value.hours[index].startTime} 
-        endTime={value.hours[index].endTime}  licenseNumber={value.driver.licenseNumber} contact={value.driver.contact}></Singlecard>
+        form={value.from} to={value.to} startTime={value.hours.startTime} 
+        endTime={value.hours.endTime}  licenseNumber={value.driver.licenseNumber} contact={value.driver.contact} day={value.day} month={value.month}></Singlecard>
       })}
     </div>
   )
